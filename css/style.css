@@ -315,10 +315,6 @@ gap: 24px;
  background: var(--navi-blue);
  height: 312px;
 }
-.footer-container {
-height: 312px;
-padding-top: 101.5px;
-}
 
 .footer-text {
   font-weight: 400;
@@ -338,9 +334,7 @@ padding-top: 101.5px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: inline-block;
-  margin-bottom: 16px;
-}
+ }
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
 }
