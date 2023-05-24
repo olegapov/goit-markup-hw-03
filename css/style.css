@@ -397,10 +397,12 @@ gap: 24px;
 .menu-btn:hover {
   color: #FFFFFF;
   background: #404BBF;
+  border: 1px solid transparent;
 }
 .menu-btn:focus {
   color: #FFFFFF;
   background:#404BBF;
+  border: 1px solid transparent;
 }
 
 .service-list {
