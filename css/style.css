@@ -346,6 +346,8 @@ gap: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
  }
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
