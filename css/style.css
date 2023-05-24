@@ -149,9 +149,6 @@ color: var(--ocean);
   background-color: var(--ocean)
 }
 /* -----features----- */
-.features {
-  background: #e5e5e5;
-}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -208,8 +205,7 @@ color: var(--ocean);
 }
 /* footer */
 .footer {
-  font-family: "Raleway", sans-serif;
-  background: var(--navi-blue)
+ background: var(--navi-blue)
 }
 .footer-text {
   font-weight: 400;
