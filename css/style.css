@@ -370,6 +370,17 @@ gap: 24px;
 }
 
 /* PORTFOLIUO */
+
+.menu {
+  padding-top: 96px; 
+  padding-bottom: 120px; 
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px; 
+  margin-bottom: 72px;
+}
 .menu-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -379,6 +390,9 @@ gap: 24px;
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px; 
 }
 .menu-btn:hover {
   color: #FFFFFF;
@@ -387,6 +401,13 @@ gap: 24px;
 .menu-btn:focus {
   color: #FFFFFF;
   background:#404BBF;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px; 
 }
 .service-subtitle {
   font-weight: 500;
@@ -402,3 +423,10 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: var(--slate)
 }
+
+.service-item {
+  width: calc((100% - 48px) / 3); 
+  
+}
+
+
