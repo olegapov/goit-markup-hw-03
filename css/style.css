@@ -35,7 +35,9 @@ h6
     --dairy:#FCFCFC;
     --title-header:Family: Roboto
    }
- 
+ img {
+  display: block;
+ }
   .list {
     list-style: none;
   }
@@ -58,6 +60,7 @@ h6
 .header {
   height: 72px;
   padding-top: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -94,7 +97,8 @@ h6
   font-style: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
- color: var(--grey);
+  color: var(--grey);
+  padding: 24px 0;
 }
 .header-adress {
   font-style: normal;
