@@ -154,6 +154,7 @@ color: var(--ocean);
 /** ------HERO----- **/
 .hero {
   background: var(--grey);
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -169,7 +170,7 @@ color: var(--ocean);
   color: var(--white);
  margin: 0 auto;
  margin-bottom: 48px;
- width: 496px;
+ max-width: 496px;
   }
 
 .hero-btn-btn {
@@ -187,6 +188,7 @@ color: var(--ocean);
   height: 56px;
   border-radius: 4px;
   margin: auto;
+  border: none;
 }
 
 .hero-btn-title {
@@ -206,6 +208,9 @@ color: var(--ocean);
   background-color: var(--ocean)
 }
 /* -----features----- */
+.features {
+  padding: 120px 0;
+}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -230,7 +235,22 @@ color: var(--ocean);
   display: flex;
 }
 
+.features-list {
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4); 
+
+}
+
+
+
 /* doing */
+..doing {
+  padding-bottom: 120px; 
+}
+
 .doing-title {
   font-weight: 700;
   font-size: 36px;
@@ -291,6 +311,7 @@ gap: 24px;
  }
 /* footer */
 .footer {
+ padding: 100px 0;
  background: var(--navi-blue);
  height: 312px;
 }
@@ -317,6 +338,8 @@ padding-top: 101.5px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
