@@ -35,9 +35,11 @@ h6
     --dairy:#FCFCFC;
     --title-header:Family: Roboto
    }
+
  img {
 display: block;
  }
+
  .visually-hidden {
   position: absolute;
   width: 1px;
@@ -53,6 +55,7 @@ display: block;
   .list {
     list-style: none;
   }
+
   .link {
     text-decoration: none;
   }
@@ -66,11 +69,8 @@ display: block;
   }
   
 /* ----header------ */
-/* .header-nav {
-  color: var(--navi-blue);
-} */
+
 .header {
-  /* height: 72px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -88,6 +88,7 @@ display: block;
   text-transform: uppercase;
   color: var(--iris);
 }
+
 .header-logo {
   color: var(--iris);
   margin-right: 76px;
@@ -112,6 +113,7 @@ display: block;
   padding: 24px 0;
   display: block;
 }
+
 .header-adress {
   font-style: normal;
   color: var(--slate);
@@ -130,6 +132,7 @@ display: block;
 .header-logo:focus {
   color: var(--ocean);
 }
+
 .header-item-link:hover,
 .header-item-link:focus {
   color: var(--ocean);
@@ -146,6 +149,7 @@ color: var(--ocean);
 .header-adress {
   font-style: normal;
  }
+
 .header-adress-contact {
   color: var(--slate);
 }
@@ -206,10 +210,12 @@ color: var(--ocean);
   letter-spacing: 0.04em;
   color: var(--white)
 }
+
 .hero-btn-btn:hover,
 .hero-btn-btn:focus {
   background-color: var(--ocean)
 }
+
 .hero-btn-title:hover,
 .hero-btn-title:focus {
   background-color: var(--ocean)
@@ -218,6 +224,7 @@ color: var(--ocean);
 .features {
   padding: 120px 0;
 }
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -226,6 +233,7 @@ color: var(--ocean);
   color: var(--navi-blue);
   margin-bottom: 8px;
 }
+
 .features-text {
   font-weight: 400;
   font-size: 16px;
@@ -233,8 +241,6 @@ color: var(--ocean);
   letter-spacing: 0.02em;
   color: var(--slate)
 }
-/* .features-container {
-} */
 
 .features-list {
   display: flex;
@@ -248,13 +254,6 @@ color: var(--ocean);
   width: calc((100% - 72px) / 4); 
 
 }
-
-
-
-/* doing */
-/* .doing {
-  padding-bottom: 120px; 
-} */
 
 .doing-title {
   font-weight: 700;
@@ -277,10 +276,12 @@ color: var(--ocean);
 .team {
   background-color: var(--cloud);
 }
+
 .team-list {
 display: flex;
 gap: 24px;
 }
+
 .team-container {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -296,6 +297,7 @@ gap: 24px;
   color: var(--navi-blue);
   margin-bottom: 72px; 
  }
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -304,6 +306,7 @@ gap: 24px;
   color: var(--navi-blue);
   margin-bottom: 8px;
 }
+
 .team-text {
   font-weight: 400;
   font-size: 16px;
@@ -311,6 +314,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
 .team-item {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px; 
@@ -337,6 +341,7 @@ gap: 24px;
   color: var(--cloud);
   max-width: 264px;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -349,9 +354,11 @@ gap: 24px;
   display: inline-block;
   margin-bottom: 16px;
  }
+
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
 }
+
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -369,12 +376,14 @@ gap: 24px;
   padding-top: 96px; 
   padding-bottom: 120px; 
 }
+
 .menu-list {
   display: flex;
   justify-content: center;
   gap: 24px; 
   margin-bottom: 72px;
 }
+
 .menu-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -388,11 +397,13 @@ gap: 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px; 
 }
+
 .menu-btn:hover {
   color: #FFFFFF;
   background: #404BBF;
   border: 1px solid transparent;
 }
+
 .menu-btn:focus {
   color: #FFFFFF;
   background:#404BBF;
@@ -405,6 +416,7 @@ gap: 24px;
   column-gap: 24px; 
   row-gap: 48px; 
 }
+
 .service-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -413,6 +425,7 @@ gap: 24px;
   color: var(--navi-blue);
   margin-bottom: 8px; 
 }
+
 .service-text {
   font-weight: 400;
   font-size: 16px;
@@ -420,6 +433,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: var(--slate)
 }
+
 .port-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
